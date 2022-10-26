@@ -1,0 +1,5 @@
+public override bool InPlaceUpdater(ref Key key, ref Input input, ref Value value, ref Output output, ref RMWInfo rmwInfo)
+{
+    value.vfield1 += input.ifield1;
+    return true;
+}
